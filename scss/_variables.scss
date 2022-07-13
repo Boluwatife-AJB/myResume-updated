@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --background-green: #3d625b;
+  --left-green: #249d70;
+  --grey-color: #697477;
+  --suheading-green: #61c591;
+  --main-green: #229b6e;
+  --white-color: #fff;
+  --black-color: #000;
+}
+
+:root {
+  --body-font: 'Raleway', sans-serif;
+  --title-font-size: 2rem;
+  --font-medium: 400;
+  --subheading-font-size: 1rem;
+  --normal-font-size: 0.8rem;
+  --small-font-size: 0.7rem;
+
+  @media screen and (max-width: 320px) {
+    --subheading-font-size: 0.9rem;
+  }
+
+  @media screen and (min-width: 470px) {
+    --title-font-size: 3.5rem;
+    --subheading-font-size: 1.5rem;
+    --normal-font-size: 1.1rem;
+  }
+  @media screen and (min-width: 768px) {
+    --title-font-size: 4.3rem;
+    --subheading-font-size: 2rem;
+    --normal-font-size: 1.2rem;
+    --small-font-size: 0.875rem;
+  }
+}
+
+:root {
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+}

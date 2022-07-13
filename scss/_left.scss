@@ -1,0 +1,76 @@
+.left {
+  background: var(--main-green);
+  padding-top: var(--mb-4);
+  padding-bottom: var(--mb-4);
+  width: 35%;
+  color: var(--white-color);
+
+  @media screen and (min-width: 768px) {
+    padding-top: 5rem;
+  }
+
+  a {
+    word-wrap: break-word;
+    text-decoration: underline;
+  }
+
+  &__content--image {
+    margin: 0 8px;
+
+    @media screen and (max-width: 320px) {
+      margin-bottom: 2.5rem;
+    }
+
+    @media screen and (min-width: 768px) {
+      padding-left: var(--mb-4);
+      padding-right: var(--mb-4);
+    }
+  }
+
+  &__content--text {
+    padding-left: var(--mb-1);
+    padding-right: var(--mb-1);
+    margin-top: var(--mb-4);
+
+    @media screen and (min-width: 768px) {
+      padding-left: var(--mb-4);
+      padding-right: var(--mb-4);
+      margin-top: 5rem;
+    }
+
+    .address {
+      p:not(:last-child) {
+        margin-bottom: var(--mb-1);
+      }
+    }
+
+    .get-in-touch {
+      margin-top: var(--mb-2);
+    }
+
+    .skills {
+      margin-top: var(--mb-2);
+      // background-color: red;
+
+      span {
+        color: var(--black-color);
+        font-weight: bold;
+        font-size: 0.82rem;
+        line-height: 0.8;
+
+        @media screen and (min-width: 470px) {
+          font-size: 1rem;
+        }
+      }
+
+      p {
+        margin-top: var(--mb-1);
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+  }
+}
