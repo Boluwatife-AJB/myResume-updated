@@ -1,5 +1,5 @@
 .right {
-  padding-top: 3.5rem;
+  padding-top: 3rem;
   padding-left: var(--mb-1);
   padding-right: var(--mb-1);
   padding-bottom: 3rem;
@@ -37,6 +37,7 @@
   .main-heading {
     font-size: var(--title-font-size);
     line-height: 1;
+    letter-spacing: 5px;
     height: auto;
   }
 
@@ -87,6 +88,10 @@
 
     @media screen and (min-width: 467px) {
       font-size: 1.6rem;
+    }
+    @media screen and (min-width: 768px) {
+      letter-spacing: 1px;
+      font-size: var(--subheading-font-size);
     }
   }
 
