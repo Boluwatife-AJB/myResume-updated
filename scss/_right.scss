@@ -37,8 +37,12 @@
   .main-heading {
     font-size: var(--title-font-size);
     line-height: 1;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
     height: auto;
+
+    @media screen and (min-width: 400px) {
+      letter-spacing: 5px;
+    }
   }
 
   .educational-history {
@@ -82,7 +86,7 @@
   .subtitle {
     font-size: 0.9rem;
     line-height: 1;
-    letter-spacing: -0.5px;
+    letter-spacing: 0.5px;
     text-transform: uppercase;
     margin-top: var(--mb-1);
 
